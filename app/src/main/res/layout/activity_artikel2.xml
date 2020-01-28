@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".Artikel2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/judul2"
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20dp"
+            android:text="4 Tanda Pola Dietmu Berdampak Buruk bagi Kesehatanmu" />
+
+        <TextView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/judul2"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:fontFamily="@font/bebas"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:gravity="bottom"
+
+            android:background="@drawable/img2"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img2"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:text="Untuk menurunkan berat badan, memilih pola diet yang tepat sangatlah penting. Hanya saja terkadang kita masih sering ikut-ikutan tren diet tertentu padahal belum tentu pola dietnya sesuai dengan kondisi kita. Salah memilih pola diet, dampaknya bisa buruk untuk kesehatan.
+
+Bila saat ini di antara kita ada yang sedang menjalankan pola diet tertentu, saatnya untuk mencoba mengevaluasinya sebentar. Jika kita mulai merasa ada tanda-tanda yang mengarah pada makin memburuknya kondisi kesehatan kita, ada baiknya untuk memperbaiki pola makan dan kebiasaan kita. Jangan sampai kita mengorbankan kondisi kesehatan kita, ya." />
+
+        <Button
+            android:id="@+id/open_location_button"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_button"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@id/txt2"
+            android:onClick="openWeb"
+            android:text="Open Website"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

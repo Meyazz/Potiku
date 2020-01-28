@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".Artikel3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/judul3"
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20dp"
+            android:text="5 Tanda Tubuhmu Sudah Mendapat Cukup Air" />
+
+        <TextView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/judul3"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:fontFamily="@font/bebas"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:gravity="bottom"
+
+            android:background="@drawable/img3"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img3"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:text="Mencukupi kebutuhan air minum setiap harinya adalah salah satu kebiasaan penting untuk menjaga kesehatan tubuh. Jika tubuh kekurangan cairan, dampaknya bisa buruk untuk kesehatan. Sekarang coba kita cek lagi apakah kebutuhan cairan tubuh kita sudah terpenuhi dengan baik?
+
+Bila kebutuhan cairan sudah tercukupi dengan baik, tubuh akan langsung merasakan efeknya. Berikut ini beberapa tanda yang bisa kita rasakan saat kebutuhan minum kita telah tercukupi. Selengkapnya langsung simak di sini, ya.
+
+" />
+
+        <Button
+            android:id="@+id/open_location_button"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_button"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@id/txt3"
+            android:onClick="openWeb"
+            android:text="Open Website"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

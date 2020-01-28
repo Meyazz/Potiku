@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Wawasan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img1"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="artikel1"
+        android:text="Jadi Lebih Sering Buang Air Besar, Ternyata Ini Tanda yang Sehat"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/img1"
+        android:src="@drawable/img2"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/img2"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="artikel2"
+        android:text="4 Tanda Pola Dietmu Berdampak Buruk bagi Kesehatanmu"/>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/img2"
+        android:src="@drawable/img3"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/img3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/txt2"
+        android:onClick="artikel3"
+        android:text="5 Tanda Tubuhmu Sudah Mendapat Cukup Air"/>
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/img3"
+        android:src="@drawable/img4" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/txt3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img4"
+        android:onClick="artikel4"
+        android:text="7 Hal Ini Harusnya Tidak Dilakukan Ketika Tubuh sedang Sakit!"/>
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/img4"
+        android:src="@drawable/img5"/>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/txt4"
+        android:layout_toRightOf="@+id/img5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:onClick="artikel5"
+        android:text="5 Tips Mengurangi Beban Kerja Pencernaan untuk Tubuh yang Lebih Sehat"/>
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/img5"
+        android:src="@drawable/img6"/>
+
+    <TextView
+        android:id="@id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img6"
+        android:text="Sayangi Tubuhmu, Berhentilah Makan saat Sudah Pukul 8 Malam"
+        android:layout_marginTop="30dp"
+        android:onClick="artikel6"
+        android:layout_below="@+id/txt5"/>
+
+    </RelativeLayout>
+</ScrollView>

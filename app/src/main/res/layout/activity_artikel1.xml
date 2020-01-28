@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Artikel1"
+    android:padding="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/judul1"
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20dp"
+            android:text="Jadi Lebih Sering Buang Air Besar, Ternyata Ini Tanda yang Sehat" />
+
+        <TextView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/judul1"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:fontFamily="@font/bebas"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:gravity="bottom"
+
+            android:background="@drawable/img1"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img1"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:text="Buang air besar adalah proses alami cara tubuh membuang zat sisa dari makanan yang kita makan. Laju sistem pencernaan dan metabolisme setiap orang bisa jadi berbeda-beda, dan berapa kali orang buang air besar juga tergantung apa yang dimakan.
+
+Beberapa orang mungkin akan menyadari perubahan frekuensi buang air besar jika mengubah pola makan. Jika kamu menyadari kamu jadi lebih sering baung air besar, bisa jadi ini adalah tanda yang sehat." />
+
+        <Button
+            android:id="@+id/open_location_button"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_button"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@id/txt1"
+            android:onClick="openWeb"
+            android:text="Open Website"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
